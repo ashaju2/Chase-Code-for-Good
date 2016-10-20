@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+        <link rel="stylesheet" href="css/chat.css">
+  </head>
+	<div id="second">
+  <body>
+<div class="header">Connect</div>
+<div class="container">
+  
+  <div class="Area">
+    <div class="L">
+      <a href="https://twitter.com/SamiMassadeh">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrEyVlaWx0_FK_sz86j-CnUC_pfEqw_Xq_xZUm5CMIyEI_-X2hRUpx1BHL"/>
+        <div class="tooltip">Sami Massadeh - 28 Years<br/>Breast Cancer <br/>Columbus</div></a>
+    </div>
+    <div class="text R textR">Hi Mariam, How Are You?
+    </div>
+  </div>
+  
+    <div class="Area"> 
+    <div class="R">
+      <a href="https://twitter.com/MariamMassadeh">
+    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxU35znsBhAWQd5BouLIVtH1P4WNa0JZ_XXpyViHOIARbM2igbNgC6_kp5"/>
+        <div class="tooltip">Mariam Massadeh - 23 Years<br/>Breast Cancer<br/>Columbus</div></a>
+    </div>    
+    <div class="text L textL">Hi Sami, Fine, Thank You, How Are You?
+    </div>    
+  </div>
+  
+   <div class="Area">
+    <div class="L">
+      <a href="https://twitter.com/SamiMassadeh">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrEyVlaWx0_FK_sz86j-CnUC_pfEqw_Xq_xZUm5CMIyEI_-X2hRUpx1BHL"/>
+        <div class="tooltip">Sami Massadeh - 28 Years<br/>Breast Cancer <br/>Columbus</div></a>
+    </div>
+    <div class="text R textR">Fine, Can I see you tomorrow?
+    </div>
+  </div>
+  
+    <div class="Area"> 
+    <div class="R">
+      <a href="https://twitter.com/MariamMassadeh">
+    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxU35znsBhAWQd5BouLIVtH1P4WNa0JZ_XXpyViHOIARbM2igbNgC6_kp5"/>
+        <div class="tooltip">Mariam Massadeh - 23 Years<br/>Breast Cancer<br/>Columbus</div></a>
+    </div>    
+    <div class="text L textL">sure, Yes I can,
+      t.c
+    </div>    
+  </div>
+  
+    <div class="Area">
+    <textarea placeholder="Participate in coversation"></textarea>
+      <br/><br/>
+      <input type="button" onclick="clickX()" value="SEND"/>
+      <div class="validation">You Are Not Registered</div>
+      <br/>
+    <p class="note">* for any help return to adminstrator..</p>
+  </div>
+  </div>
+
+
+    <div id="map">
+    <script>
+      function initMap() {
+        var uluru = {lat: 39.961176, lng: -82.998794};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnFwPAUQV_QEcLUX9Zh5x8vf2wsad_K7c&callback=initMap">
+    </script>
+    </div>
+
+
+    <script src="js/file_2.js"></script>
+  </body>
+</html>
